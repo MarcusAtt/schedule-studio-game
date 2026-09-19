@@ -1,0 +1,23 @@
+{
+  "name": "schedule-studio-game",
+  "version": "0.2.0",
+  "description": "A lightweight appointment-scheduling game assistant for customizing services and balancing a budget.",
+  "author": { "name": "MarcusAtt" },
+  "skills": "./skills/",
+  "interface": {
+    "displayName": "Schedule Studio Game",
+    "shortDescription": "Plan appointments, customize services, and manage a game budget.",
+    "longDescription": "Schedule Studio Game turns appointment scheduling into a simple management game with service customization, staffing choices, and budget tracking.",
+    "developerName": "MarcusAtt",
+    "category": "Productivity",
+    "capabilities": ["Interactive", "Planning", "Budgeting"],
+    "brandColor": "#FF6B35",
+    "composerIcon": "./assets/icon.svg",
+    "logo": "./assets/icon.svg",
+    "defaultPrompt": [
+      "Start my first day with a $500 budget.",
+      "Customize my premium service for more profit.",
+      "Show today's schedule and best next move."
+    ]
+  }
+}
